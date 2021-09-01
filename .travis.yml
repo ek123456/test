@@ -1,5 +1,10 @@
-language: minimal
 dist: focal
 os: linux
 arch:
 - s390x
+language: minimal
+services:
+
+jobs:
+  include:
+  group: stable
