@@ -1,1 +1,4 @@
-language: java
+dist: focal
+os: linux
+arch:
+- s390x
